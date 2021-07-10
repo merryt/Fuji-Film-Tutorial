@@ -1,0 +1,44 @@
+body {
+    /* background-color: pink; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.hero {
+    background-image: url("https://images.pexels.com/photos/1210494/pexels-photo-1210494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.hero-text {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 200px;
+    width: 30%;
+    background-color: blanchedalmond;
+}
